@@ -1,6 +1,7 @@
 import enUS, { Messages } from "./enUS";
 import zhCN from "./zhCN";
 import ruRU from "./ruRU";
+import deDE from "./deDE";
 
 // 1. import new language above
 
@@ -18,6 +19,10 @@ export const languages = [
   {
     lang: "ruRU",
     messages: ruRU,
+  },
+  {
+    lang: "deDE",
+    messages: deDE,
   },
 
   // 2. Add more languages above
